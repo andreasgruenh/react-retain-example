@@ -9,6 +9,8 @@
   width: 100px;
   border-radius: 0px;
   transition: border-radius 1s;
+  overflow: hidden;
+  position: relative;
 }
 
 .circle {
@@ -17,4 +19,47 @@
 
 .square {
   border-radius: 0;
+}
+
+.page {
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  background: linear-gradient(45deg, #ffcccc, #ccffcc);
+}
+
+.page-container {
+  width: 202px;
+  height: 402px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid grey;
+}
+
+html {
+  padding: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #00aaaa;
+  margin: 0;
+}
+
+.preview-block {
+  background: linear-gradient(-45deg, #ff0000, #7e04b6);
+  width: 100%;
+  height: 100%;
+  flex: 0 0 auto;
+}
+
+.retaining-container {
+  display: contents;
 }

@@ -1,11 +1,12 @@
 {
-  "name": "react",
+  "name": "react-retain-pages",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "@types/lodash": "4.14.149",
+    "@types/react@16.9.19 ": "types/react-dom",
     "lodash": "4.17.15",
     "react": "16.12.0",
     "react-dom": "16.12.0",
